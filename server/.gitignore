@@ -1,0 +1,45 @@
+# dependencies
+node_modules/
+
+# build output
+dist/
+build/
+web-build/
+
+# Vite cache
+.vite/
+
+# Expo
+.expo/
+
+# environment variables
+.env
+.env.*    # includes .env.local, .env.production, etc.
+
+# debug logs
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# macOS
+.DS_Store
+
+# Windows thumbnail cache
+Thumbs.db
+
+# TypeScript
+*.tsbuildinfo
+
+# Metro bundler health check
+.metro-health-check*
+
+# Misc credentials
+*.pem
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# Example app config (if not needed in repo)
+app-example
